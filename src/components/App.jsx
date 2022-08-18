@@ -46,7 +46,7 @@ export default function App() {
       </Section>
       <Section title="Statistics">
         {countTotalFeedback() === 0 ? (
-          <Notification message="No feedback given" />
+          <Notification message="No feedback given !" />
         ) : (
           <Statistic
             good={good}
